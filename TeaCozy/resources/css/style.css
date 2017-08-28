@@ -1,0 +1,139 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+div {
+  display: inline-flex;
+}
+
+/*  HEADER  */
+header {
+  display: inline-flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  justify-content: space-between;
+  top: 0;
+}
+
+header img {
+  height: 50px;
+  padding: 10px 0 0 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+/*   MAIN CONTAINER  */
+.body-container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  MISSION SECTION  */
+#mission {
+  display: inline-flex;
+  background-image: url("../images/missionbackground.jpeg");
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 50px;
+  align-content: center;
+}
+
+.textmission {
+  width: 1200px;
+  height: 90px;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  top: 300px;
+}
+
+/* FEATURED TEA section */
+#featuredtea {
+  width: 1000px;
+  display: inline-flex;
+  flex-flow: column wrap;
+  text-align: center;
+  padding-top: 69px;
+}
+
+img.square {
+  width: 300px;
+  height: 200px;
+}
+
+.square {
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+}
+
+/* LOCATIONS section */
+#location {
+  display: flex;
+  flex-flow: column wrap;
+  background-image: url("../images/locationsbackground.jpeg");
+  margin-top: 150px;
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addresses {
+  display: inline-flex;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-color: black;
+  flex-flow: column wrap;
+  text-align: center;
+  opacity: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+h2, h3, h4 {
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+/*  CONTACT section  */
+.contact {
+  height: 200px;
+  margin-top: 100px;
+  padding-top: 20px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
